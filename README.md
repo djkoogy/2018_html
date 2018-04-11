@@ -1,4 +1,4 @@
-# html1
+# html & CSS 실습 화면입니다. 
 
 
 https://djkoogy.github.io/2018_html/
