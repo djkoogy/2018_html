@@ -6,7 +6,29 @@
 		<img src="https://d30y9cdsu7xlg0.cloudfront.net/png/1613081-200.png">
 		<form action="action.php" method="post">
 			<p>이름: <input type="text" name="name" /></p>
-			<p>연령: <input type="text" name="age" /></p>
+			<p>연락처: <input type="text" name="phone" /></p>
+			<p>이용 날짜:<input type="date" name="depart" /></p>
+			<p>이용시간:
+				<br />
+				<input type="radio" name="genre" value="오전(09:00)" checked="checked" /> 오전(09:00)
+				<input type="radio" name="genre" value="오후(12:00)" /> 오후(12:00)
+				<input type="radio" name="genre" value="저녁(18:00)" /> 저녁(18:00)
+			</p>
+			<p>사전 확인 사항:
+				<br />
+				<input type="checkbox" name="service[]" value="비흡연석" checked="checked" /> 비흡연석
+				<input type="checkbox" name="service[]" value="창가쪽" /> 창가쪽
+				<input type="checkbox" name="service[]" value="주차이용" /> 주차이용
+			</p>
+			<p>선호하는 쉐프 ?</p>
+			<select name="chef">
+				<option value="이용복">이용복 쉐프</option>
+				<option value="최현석">최현석 쉐프</option>
+				<option value="강레오">강레오 쉐프</option>
+			</select>
+
+			<p>긴글 작성: <textarea name="comments" cols="20" rows="4">하고싶은 이야기를 작성해 주세요~~</textarea></p>
+
 			<p><input type="submit" /></p>
 		</form>	
 	</body>
