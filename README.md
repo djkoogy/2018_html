@@ -3,4 +3,8 @@
 
 https://djkoogy.github.io/2018_html/
 
-https://djkoogy.github.io/2018_html/Code_Sample/step7/index.html
+https://djkoogy.github.io/2018_html/reserved.html
+
+https://djkoogy.github.io/2018_html/htmlandcss_code
+
+
