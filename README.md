@@ -3,6 +3,8 @@
 
 https://djkoogy.github.io/2018_html/
 
+https://djkoogy.github.io/2018_html/wedding.html
+
 https://djkoogy.github.io/2018_html/reserved.html
 
 https://djkoogy.github.io/2018_html/htmlandcss_code
