@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+* { box-sizing: border-box; }
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+.vid-info { position: absolute; top: 10; right: 50; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+</style>
+	</head>
+	<body>
+		<div class="video-background">
+    <div class="video-foreground">
+      <iframe src="https://www.youtube.com/embed/k3-BDy55tq4?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+<div id="vidtop-content">
+<div class="vid-info">
+	  <h1>봄봄봄 (Bom Bom Bom)</h1>
+	  <pre>봄 봄 봄 봄이 왔네요
+우리가 처음 만났던 그때의 향기 그대로
+그대가 앉아 있었던 그 벤치 옆에 나무도 아직도 남아있네요
+살아가다 보면 잊혀질 거라 했지만
+그 말을 하면 안될거란걸 알고 있었소
+
+그대여 너를 처음 본 순간 나는 바로 알았지
+그대여 나와 함께 해주오 이 봄이 가기 전에
+
+다시 봄 봄 봄 봄이 왔네요
+그대 없었던 내 가슴 시렸던 겨울을 지나
+또 벚꽃 잎이 피어나듯이 다시 이 벤치에 앉아 추억을 그려보네요
+사랑하다보면 무뎌질 때도 있지만
+그 시간마저 사랑이란 걸 이제 알았소
+
+그대여 너를 처음 본 순간 나는 바로 알았지
+그대여 나와 함께 해주오 이 봄이 가기 전에
+
+우리 그만 참아요 이제 더 이상은 망설이지마요
+아팠던 날들은 이제 뒤로 하고 말할거에요
+
+그대여 너를 처음 본 순간 나는 바로 알았지
+그대여 나와 함께 해주오 이 봄이 가기전에
+</pre>
+	 <a href="https://www.youtube.com/watch?v=k3-BDy55tq4">Full article</a>
+  </div>
+</div>
+		
+	</body>
+</html>
