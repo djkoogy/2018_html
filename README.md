@@ -11,4 +11,6 @@ https://djkoogy.github.io/2018_html/reserved.html
 
 https://djkoogy.github.io/2018_html/htmlandcss_code
 
+https://djkoogy.github.io/2018_html/test_pages/
+
 
